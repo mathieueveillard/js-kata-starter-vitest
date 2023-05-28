@@ -1,15 +1,8 @@
-// @ts-ignore see https://github.com/jest-community/jest-extended#setup
-import * as matchers from "jest-extended";
+import { expect, test } from "vitest";
 import fc from "fast-check";
-
-expect.extend(matchers);
 
 test("A simple test (Jest)", () => {
   expect(1 + 1).toEqual(2);
-});
-
-test("Additional matchers (jest-extended)", () => {
-  expect([1, 0]).toIncludeSameMembers([0, 1]);
 });
 
 test("Property-based testing (fast-check)", () => {

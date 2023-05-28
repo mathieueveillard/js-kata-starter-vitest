@@ -1,28 +1,27 @@
 {
-  "name": "js-kata-starter",
+  "name": "js-kata-starter-vitest",
   "version": "1.0.0",
   "description": "Starter project for kata (Node, TypeScript, Jest, fast-check, ts-node)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --coverage",
+    "test": "vitest",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "devDependencies": {
-    "@types/jest": "^29.5.1",
     "fast-check": "^3.8.2",
-    "jest": "^29.5.0",
-    "jest-extended": "^3.2.4",
     "prettier": "^2.8.8",
-    "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vitest": "^0.31.1"
   },
   "prettier": {
     "printWidth": 120
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieueveillard/js-kata-starter.git"
+    "url": "git+https://github.com/mathieueveillard/js-kata-starter-vitest.git"
   },
   "keywords": [
     "starter",
@@ -30,7 +29,7 @@
     "kata",
     "node",
     "typescript",
-    "jest",
+    "vitest",
     "fast-check",
     "pbt",
     "ts-node"
@@ -38,7 +37,7 @@
   "author": "Mathieu Eveillard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathieueveillard/js-kata-starter/issues"
+    "url": "https://github.com/mathieueveillard/js-kata-starter-vitest/issues"
   },
-  "homepage": "https://github.com/mathieueveillard/js-kata-starter#readme"
+  "homepage": "https://github.com/mathieueveillard/js-kata-starter-vitest#readme"
 }

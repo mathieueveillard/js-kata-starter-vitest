@@ -1,6 +1,7 @@
-# js-kata-starter
+# js-kata-starter-vitest
 
-Starter project for kata (Node, TypeScript, Jest)
+Starter project for kata (Node, TypeScript, Vitest)
+https://vitest.dev/guide/features.html
 
 ## Getting started
 
